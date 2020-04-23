@@ -1,4 +1,4 @@
-import { playerHealth } from "../main.js"
+import { playerHealth } from "../src/main.js"
 
 
 test("Говорит, что здоров при здоровье больше 50", () => {
