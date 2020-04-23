@@ -1,7 +1,3 @@
-
-// const player = {name: 'Маг', health: 90}
-// let index = player.health;
-
 function playerHealth(index) {
   if (index > 50) {
     return 'healthy';
@@ -12,5 +8,5 @@ function playerHealth(index) {
   }
   return 'killed';
 }
-// console.log(playerHealth(50))
+
 export default playerHealth;
