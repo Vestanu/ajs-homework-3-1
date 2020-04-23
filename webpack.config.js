@@ -1,10 +1,11 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable no-undef */
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-    entry: './src/main.js',
+  entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
   },
