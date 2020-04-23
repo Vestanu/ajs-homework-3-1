@@ -1,4 +1,5 @@
-import playerHealth from '../src/main';
+/* eslint-disable import/extensions */
+import playerHealth from '../src/main.js';
 
 
 test('Говорит, что здоров при здоровье больше 50', () => {
