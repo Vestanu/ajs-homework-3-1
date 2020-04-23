@@ -28,10 +28,10 @@ test('Говорит, что состоение критическое при з
 
 test('Говорит, что убит при здоровье 0', () => {
   const result = playerHealth(0);
-  expect(result).toBe('critical');
+  expect(result).toBe('killed');
 });
 
 test('Говорит, что ранен при здоровье меньше 0', () => {
   const result = playerHealth(-10);
-  expect(result).toBe('critical');
+  expect(result).toBe('killed');
 });
